@@ -1,0 +1,44 @@
+#results { 	width:95%;margin:30px auto 0; }
+
+form {
+	display:block;
+	width:95%;
+	margin:30px auto;
+}
+
+form ul {
+	display:block;
+	list-style-type:none;
+}
+
+form li {
+	display:block;
+	padding:0 0 20px;
+}
+
+form label {
+	display:block;
+	font-size:1.2em;
+}
+
+form input[type="text"] {
+	display:block;
+	border:1px solid #333333;
+	background-color:#d5d5d5;
+	color:#666666;
+	padding:7px 10px;
+	font-size:1.1em;
+	margin:5px 0px;
+	width:40%;
+	border-radius:4px;
+	-webkit-border-radius:4px;
+	-moz-border-radius:4px;
+	-ms-border-radius:4px;
+	-o-border-radius:4px;
+}
+
+form textarea.editor {
+	display:block;
+	width:100%;
+	min-height:200px;
+}

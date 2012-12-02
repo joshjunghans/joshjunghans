@@ -1,0 +1,6 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{SCRIPT_FILENAME} !-f
+RewriteRule   [^/]$ %{REQUEST_URI}/ [R=301,L]
+RewriteRule ^(istruct-admin)($|/) - [L]
+RewriteRule ^(.+)/$ index.php?showpage=$1 [L,QSA]
